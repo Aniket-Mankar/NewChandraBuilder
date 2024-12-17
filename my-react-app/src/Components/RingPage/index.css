@@ -1,0 +1,16 @@
+.ring-img{
+    width: 300px;
+    
+ }
+
+ .list-of-img-ring{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -35px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+   background-color: #ffffff;
+    width: auto;
+}

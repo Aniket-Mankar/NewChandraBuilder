@@ -1,0 +1,86 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    z-index: 1000;
+    font-family: 'Avenir';
+  }
+  
+  .popup-content {
+    background: #F6F3EE;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: 'Avenir';
+    margin-right: 80px;
+  }
+  
+  .popup-input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    font-family: 'Avenir';
+    background-color: transparent;
+  }
+  
+  .popup-buttons {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Avenir';
+    margin-top: 20px;
+  }
+  
+  .popup-submit, .popup-cancel {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Avenir';
+  }
+  
+  .popup-submit {
+    background: #000000;
+    color: white;
+    font-family: 'Avenir';
+  }
+  
+  .popup-cancel {
+    background: #dc3545;
+    color: white;
+    font-family: 'Avenir';
+  }
+  
+
+.number-head{
+    font-family: 'Avenir';
+    color: #000000;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: -5px;
+
+  }
+
+
+  .number-para{
+    font-family: 'Avenir';
+    color: #000000;
+    font-size: 14px;
+    font-weight: lighter;
+   
+  }

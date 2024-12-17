@@ -1,0 +1,950 @@
+@font-face {
+    font-family: 'Avenir'; /* Replace with your desired font family name */
+    src: local('CustomFont'),
+         url("C:\MOVIES\ChandraBuilder\avenir-font\AvenirLTStd-Roman.otf") format('woff2'),
+         url("C:\MOVIES\ChandraBuilder\avenir-font\AvenirLTStd-Roman.otf") format('woff');
+    font-style: light;
+    
+  }
+
+
+.main-product-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1510px;
+}
+
+.product-page-first-head {
+    font-family: 'Avenir';
+    font-style: light;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+.products-page-first-para {
+    font-family: 'Avenir';
+    font-style: light;
+    font-size: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.hr-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+
+.hr-line {
+    height: 0px;
+    align-self: center;
+    border: 1px solid #000000;
+    width: 60%;
+}
+
+.card-container-and-values-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+   
+    margin-top: 50px;
+}
+
+
+.jordan-img {
+    width: 200px;
+    padding: 30px;
+}
+
+.option-img {
+    width: 400px;
+    height: 400px;
+}
+
+
+.value-head {
+    font-family: 'Avenir';
+    font-style: light;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.values-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+
+.week-button {
+   
+   font-size: 14px;
+    background-color: transparent;
+    font-family: 'Avenir';
+}
+
+
+.week-button-se {
+    
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    font-family: 'Avenir';
+}
+
+
+.incl-taxes{
+    font-size: 12px;
+}
+
+.week-deli{
+    font-size: 14px;
+}
+
+.style-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.style-num {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-size: 16px;
+    color: #000000;
+    text-align: left;
+}
+
+.quantity {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-size: 16px;
+    color: #000000;
+    
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.color-button-img {
+    width: 120px;
+}
+
+.qua {
+    width: 110px;
+    height: 30px;
+    border-radius: 0px;
+    padding-left: 7px;
+    font-family:"Avenir";
+    font-size: 12px;
+}
+
+
+.quali {
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 7px;
+    font-family:"Avenir";
+    font-size: 14px;
+    border: 3px groove;
+    background-color: transparent;
+}
+.week-button-type {
+    border: 1px solid #000000;
+    height: 30px;
+    width: 250px;
+    background-color: transparent;
+    font-family: 'Avenir';
+}
+
+.style-cont-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F3EE;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.name-input {
+    width: 120px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    outline: none;
+    background-color: #F6F3EE;
+}
+
+
+
+.our-process-and-guarentee-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.our-process-card {
+    width: 80%;
+    background-color: #F6F3EE;
+    padding-left: 40px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.process-guarentee-head {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-size: 22px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #000000;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.process-hr-line {
+    width: 120px;
+    height: 1px;
+
+
+}
+
+
+.color-button-container{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: -5px;
+    
+}
+
+.Rose-Gold-button{
+   border: none;
+   background-color: transparent;
+   margin-right: 8px;
+   cursor: pointer;
+}
+
+.Rose-Gold-button:hover{
+    transform: scale(1.1);
+}
+
+.Gold-button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.Gold-button:hover{
+    transform: scale(1.1);
+}
+
+.Platinum-button{
+    border: none;
+   background-color: transparent;
+   cursor: pointer;
+   
+}
+
+.Platinum-button:hover{
+    transform: scale(1.1);
+}
+
+.t10kt-button{
+    width: 80px;
+    height: 32px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px ridge;
+}
+
+.t10kt-button:hover{
+    transform: scale(1.1);
+}
+
+.process-guarentee-para {
+    font-family: 'Avenir';
+    font-style: italic;
+    font-size: 14px;
+    line-height: 160%;
+    /* or 25px */
+    text-transform: capitalize;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #000000;
+    text-align: left;
+}
+
+.process-button {
+    width: 130px;
+}
+
+.guarentee-para {
+    font-family: 'Avenir';
+    font-style: italic;
+    font-size: 14px;
+    /* or 25px */
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #000000;
+    margin-left: 20px;
+
+
+}
+
+.guarentee-para-last {
+    font-family: 'Avenir';
+    font-style: italic;
+    font-size: 14px;
+    /* or 25px */
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #000000;
+    text-align: left;
+}
+
+.diamond-para-conta {
+    display: flex;
+    align-items: center;
+}
+
+.ledies-container {
+    width: 90%;
+    background-color: #F6F3EE;
+
+}
+
+.ledies-img {
+    width: 100%;
+}
+
+.contact-us-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-from-container {
+    width: 90%;
+    background-color: #F6F3EE;
+    margin-top: 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 700px;
+    padding: 32px;
+    background-color: #F6F3EE;
+    margin: 20px auto;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Avenir';
+}
+
+.send-button {
+    width: 150px;
+    padding: 15px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+
+.send-button:hover {
+    background-color: #333;
+}
+
+/* Media queries for responsiveness */
+
+/* Tablet view */
+@media (max-width: 1024px) {
+    .contact-form {
+        padding: 20px;
+    }
+
+    .contact-form h2 {
+        font-size: 20px;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 15px;
+    }
+
+    .contact-form h2 {
+        font-size: 18px;
+    }
+}
+
+
+.footer-container-one {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #EAE3D9;
+    font-family: 'Avenir';
+    font-size: 16px;
+    margin-top: -3px;
+
+}
+
+
+.mai-and-phone-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-mai-and-phone-container {
+    margin-right: 30px;
+}
+
+.home-and-product-container {
+    margin-left: 30px;
+}
+
+.mail-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mail-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.subscribe-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+    background-color: #444;
+}
+
+
+.footer-container-second {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    font-family: 'Avenir';
+    font-size: 16px;
+}
+
+.contact-us-container-new {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hr-last-line {
+    width: 97%;
+    margin-top: 40px;
+}
+
+.message-from{
+    font-family: 'Avenir';
+    font-size: 14px;
+    width: 250px;
+    outline: none;
+    border-bottom: 1px outset;
+    margin-right:20px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+
+.call-button{
+    background: white;
+    border: none;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 120px;
+    height: 30px;
+    font-family: 'Avenir';
+}
+
+.call-button::before,
+.call-button::after {
+    content: '';
+    width: 200%;
+    height: 200%;
+    top: 50%;
+    left: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    animation: sparkle 1.5s infinite linear;
+    opacity: 0.3;
+}
+
+.call-button::before {
+    
+    animation-delay: -0.75s;
+}
+
+
+.call-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes sparkle {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@media screen and (min-width: 1024px) {
+    .product-page-first-head {
+       
+        font-family: 'Avenir';
+        font-style: 'light';
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 41px;
+        /* identical to box height */
+        text-align: center;
+        letter-spacing: 0.31em;
+        color: #000000;
+        margin-top: 30px;
+    }
+
+    .call-button:hover.stars{
+            display: block;
+            filter: drop-shadow(0 0 10px #fffdef);
+    }
+
+    .products-page-first-para {
+        font-size: 14px;
+        font-style: "light";
+        line-height: 22px;
+        margin-top: -10px;
+
+    }
+
+    .card-container-and-values-container {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .result-and-input-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-bottom: 130px;
+    }
+
+    .values-container {
+        margin-left: 50px;
+    }
+
+    .result-img-container {
+        margin-left: 50px;
+        min-width: 400px;
+    }
+
+    .main-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .our-process-and-guarentee-container {
+        display: flex;
+        flex-direction: row;
+        width: 85%;
+    }
+
+    .our-process-card {
+        width: 100%;
+    }
+
+    .pri{
+        margin-top: 8px;
+    }
+
+    .cat{
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
+
+   
+
+    .message-from{
+       width: 538px;
+       padding-top: 8px;
+    }
+
+    .process-guarentee-head {
+        font-size: 23px;
+    }
+
+    .contact-us-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ledies-img{
+        width: 600px;
+    }
+
+
+    .contact-from-container {
+        height: 520px;
+        padding-left: 50px;
+        margin-top: -3px;
+
+    }
+
+    .home-product-adjust {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .main-mai-and-phone-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .phone {
+        margin-right: 20px;
+    }
+
+    .footer-container-second {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+        margin-bottom: 60px;
+       
+    }
+
+    .subscribe-container {
+        margin-left: 80px;
+        margin-top: -12px;
+    }
+
+    .subscribe-ex{
+        margin-top: -12px;
+    }
+
+   
+
+      .addrs{
+        margin-top: 25px;
+
+      }
+
+      .info{
+        margin-bottom: 1px;
+        
+      }
+
+    .social-media-container {
+        margin-right: 80px;
+    }
+
+    .jordan-img {
+        width: 185px;
+        padding: 10px;
+    }
+
+    .hr-last-line {
+        width: 90%;
+        margin-top: 40px;
+    }
+
+    .option-container{
+        margin-top: -15px;
+    }
+
+    .values-container{
+        margin-top: -42px;
+    }
+
+    .process-guarentee-para {
+        font-family: 'Avenir';
+        font-style: italic;
+        font-size: 14px;
+        line-height: 168%;
+        /* or 25px */
+        text-transform: capitalize;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: #000000;
+        text-align: left;
+        letter-spacing: 0.06em;
+      }
+    
+      .diamond-para-conta {
+        display: flex;
+        align-items: center;
+        margin-top: -5px;
+        margin-bottom: -5px;
+      }
+    
+      .gau {
+        margin-bottom: 50px;  
+      }
+    
+      .last {
+       font-style: normal;
+      }
+      .main-mai-and-phone-container {
+        margin-right: 80px;
+    }
+    
+    .home-and-product-container {
+        margin-left: 80px;
+    }
+
+    .style-cont-name {
+        width: 400px;
+    
+    }
+
+    .x{
+        margin-left: 5px;
+    }
+}
+
+
+.mailtoo{
+    margin-right: 8px;
+}
+
+
+.pho{
+    margin-right: 5px;
+}
+
+
+
+.term-and-condition {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Avenir';
+}
+
+
+
+
+
+
+
+
+.img-chain-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+   
+}
+
+
+
+
+
+.finel-img {
+   height: 45px;
+   margin-right: 1px;
+   
+}
+
+
+.finel-img-large{
+    height: 48px;
+    margin-right: 1px;
+}
+
+.list-of-img{
+    margin-left: -5px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin-right: -3px;
+    
+}
+
+.left-img{
+    margin-top: -180px;
+    margin-right: -15px;
+ }
+ 
+ .left-img-a{
+    margin-top: -180px;
+    margin-right: -27px;
+ }
+
+ .right-img{
+     margin-top: -180px;
+     margin-left: -10px;
+     
+ }
+
+ .right-img-a{
+    margin-top: -180px;
+    margin-left: -27px;
+    
+}
+
+
+.Name-from{
+    font-family: 'Avenir';
+    font-size: 14px;
+    height: 30px;
+    width: 250px;
+    outline: none;
+    margin-right:20px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.error-message{
+    font-family: 'Avenir';
+    margin-bottom: -3px;
+    color: #8b0000;
+}
+
+.number-remain{
+    font-family: 'Avenir';
+    color: #000000;
+    font-size: 16px;
+}
+
+.details-container-height{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #747070;
+}
+
+
+.details-container-width{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 100px;
+    color: #747070;
+}
+
+.measurment-container{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    color: #747070;
+}
+
+.measurment-para{
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Avenir';
+    color: #747070;
+    margin-top: 20px;
+}
+
+.Email-from{
+    font-family: 'Avenir';
+    font-size: 14px;
+    height: 30px;
+    width: 250px;
+    outline: none;
+    margin-right:20px;
+    padding-left: 10px;
+}
+
+
